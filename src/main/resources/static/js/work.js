@@ -1,6 +1,3 @@
-/**
- * Created by stanislav on 16.04.17.
- */
 
 var symptoms,
     currentQuestion = 0,

@@ -21,20 +21,6 @@ public class DBProperties {
     @Value("${db.password}")
     private String password;
 
-    /*
-    @PostConstruct
-    public void init() {
-        var source = new ClassPathResource("application.properties");
-        try {
-            var props = PropertiesLoaderUtils.loadProperties(source);
-            url = (String) props.get("db.url");
-            user = (String) props.get("db.user");
-            password = (String) props.get("db.password");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }*/
-
     public String getUrl() {
         return url;
     }
