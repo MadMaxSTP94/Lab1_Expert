@@ -13,13 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/")
 public class MainController {
-    /*@GetMapping("/{age}")
-    public String hello(@PathVariable("age") int age) {
-        return "Bye, " + age;
-    }*/
-
     private RepositoryDB esDao;
-
     @Autowired
     public void setEsDao(RepositoryDB esDao) {
         this.esDao = esDao;
